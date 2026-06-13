@@ -1,0 +1,123 @@
+﻿pmu_id,tu_id,hmu_id,tipo_tu,tipo_hmu,area_ha,volumen_m3,prioridad_pmu,accion_pmu
+1,1,3,Conservación hídrica,Conservación hídrica,14.423966387136485,2337.843306930162,Media,Conservación/restauración hídrica
+2,3,22,Conservación hídrica,Conservación hídrica,13.364991639735706,4370.123870765025,Alta,Conservación/restauración hídrica
+3,5,22,Conservación hídrica,Conservación hídrica,29.505227445131297,4370.123870765025,Alta,Conservación/restauración hídrica
+4,41,25,Recarga / infiltración,Conservación hídrica,1.0224583768076565,5690.593506342884,Muy alta,Zanjas de infiltración / recarga hídrica
+5,62,48,Conservación hídrica,Conservación hídrica,3.615120689444858,4010.616675469423,Alta,Conservación/restauración hídrica
+6,71,19,Recarga / infiltración,Conservación hídrica,0.8398765238062841,1586.701847407227,Baja,Zanjas de infiltración / recarga hídrica
+7,81,32,Recarga / infiltración,Conservación hídrica,2.1179494948158557,2815.7708439955086,Media,Zanjas de infiltración / recarga hídrica
+8,82,20,Conservación hídrica,Conservación hídrica,77.92593486130727,1392.0188227268177,Baja,Conservación/restauración hídrica
+9,82,3,Conservación hídrica,Conservación hídrica,100.85821559843932,2337.843306930162,Media,Conservación/restauración hídrica
+10,82,9,Conservación hídrica,Conservación hídrica,97.71780772673054,1748.1040439059163,Baja,Conservación/restauración hídrica
+11,82,15,Conservación hídrica,Conservación hídrica,87.09154388194061,3466.7950678364627,Alta,Conservación/restauración hídrica
+12,82,22,Conservación hídrica,Conservación hídrica,32.02485701656794,4370.123870765025,Alta,Conservación/restauración hídrica
+13,82,47,Conservación hídrica,Conservación hídrica,65.32778700412408,2853.0655309065605,Media,Conservación/restauración hídrica
+14,82,46,Conservación hídrica,Conservación hídrica,55.28578508911305,1685.1194756773355,Baja,Conservación/restauración hídrica
+15,82,19,Conservación hídrica,Conservación hídrica,65.3643033747956,1586.701847407227,Baja,Conservación/restauración hídrica
+16,82,27,Conservación hídrica,Conservación hídrica,66.67889271634846,2196.9762064580227,Media,Conservación/restauración hídrica
+17,82,40,Conservación hídrica,Conservación hídrica,61.27446986747604,2750.4654067131887,Media,Conservación/restauración hídrica
+18,90,41,Conservación hídrica,Conservación hídrica,2.008400383047088,1100.7893780066247,Baja,Conservación/restauración hídrica
+19,93,34,Conservación hídrica,Conservación hídrica,52.98525374127799,2157.06952763752,Media,Conservación/restauración hídrica
+20,93,25,Conservación hídrica,Conservación hídrica,47.87296185714356,5690.593506342884,Muy alta,Conservación/restauración hídrica
+21,93,13,Conservación hídrica,Conservación hídrica,87.12806025261567,5142.864081258491,Muy alta,Conservación/restauración hídrica
+22,93,48,Conservación hídrica,Conservación hídrica,50.063944093184915,4010.616675469423,Alta,Conservación/restauración hídrica
+23,103,41,Recarga / infiltración,Conservación hídrica,12.598147857137056,1100.7893780066247,Baja,Zanjas de infiltración / recarga hídrica
+24,104,32,Recarga / infiltración,Conservación hídrica,2.410080459618049,2815.7708439955086,Media,Zanjas de infiltración / recarga hídrica
+25,104,41,Recarga / infiltración,Conservación hídrica,8.581347091071391,1100.7893780066247,Baja,Zanjas de infiltración / recarga hídrica
+26,106,33,Conservación hídrica,Conservación hídrica,18.98851271221695,1174.585313962376,Baja,Conservación/restauración hídrica
+27,114,33,Recarga / infiltración,Conservación hídrica,10.115034656389648,1174.585313962376,Baja,Zanjas de infiltración / recarga hídrica
+28,117,41,Recarga / infiltración,Conservación hídrica,0.6207783002117693,1100.7893780066247,Baja,Zanjas de infiltración / recarga hídrica
+29,133,30,Conservación hídrica,Conservación hídrica,3.5420879482407712,1199.69643105843,Baja,Conservación/restauración hídrica
+30,142,30,Recarga / infiltración,Conservación hídrica,5.258357366453628,1199.69643105843,Baja,Zanjas de infiltración / recarga hídrica
+31,167,26,Recarga / infiltración,Conservación hídrica,0.4016800766101251,1240.6941732560697,Baja,Zanjas de infiltración / recarga hídrica
+32,196,30,Conservación hídrica,Conservación hídrica,49.479682163488,1199.69643105843,Baja,Conservación/restauración hídrica
+33,220,24,Recarga / infiltración,Conservación hídrica,1.2780729710095755,1569.1719807333545,Baja,Zanjas de infiltración / recarga hídrica
+34,220,4,Recarga / infiltración,Conservación hídrica,1.1320074886084563,3488.008194128687,Alta,Zanjas de infiltración / recarga hídrica
+35,255,8,Drenaje / regulación,Drenaje controlado,10.443681991724516,1736.254382070039,Baja,Drenaje controlado y estabilización de cauces
+36,275,16,Conservación hídrica,Conservación hídrica,23.29744444305631,1422.6216542580958,Baja,Conservación/restauración hídrica
+37,313,16,Drenaje / regulación,Conservación hídrica,16.359334028972384,1422.6216542580958,Baja,Drenaje controlado y estabilización de cauces
+38,313,11,Drenaje / regulación,Conservación hídrica,1.0224583768076465,1638.3722725731745,Baja,Drenaje controlado y estabilización de cauces
+39,317,42,Recarga / infiltración,Conservación hídrica,6.134750260881532,1095.6646602319197,Baja,Zanjas de infiltración / recarga hídrica
+40,317,49,Recarga / infiltración,Conservación hídrica,1.132007488608484,2699.585225626658,Media,Zanjas de infiltración / recarga hídrica
+41,319,42,Conservación hídrica,Conservación hídrica,3.9437680248580445,1095.6646602319197,Baja,Conservación/restauración hídrica
+42,321,49,Conservación hídrica,Conservación hídrica,0.3286473354024573,2699.585225626658,Media,Conservación/restauración hídrica
+43,331,49,Producción agrohidrológica,Conservación hídrica,22.201953325055285,2699.585225626658,Media,"Agricultura regenerativa, curvas a nivel y zanjas de infiltración"
+44,347,49,Producción agrohidrológica,Conservación hídrica,9.092576279503756,2699.585225626658,Media,"Agricultura regenerativa, curvas a nivel y zanjas de infiltración"
+45,350,10,Recarga / infiltración,Conservación hídrica,4.929710031044056,1703.9686600893979,Baja,Zanjas de infiltración / recarga hídrica
+46,370,10,Recarga / infiltración,Conservación hídrica,10.84536206830618,1703.9686600893979,Baja,Zanjas de infiltración / recarga hídrica
+47,397,10,Recarga / infiltración,Conservación hídrica,0.10954911180082372,1703.9686600893979,Baja,Zanjas de infiltración / recarga hídrica
+48,405,10,Recarga / infiltración,Conservación hídrica,1.7527857888130893,1703.9686600893979,Baja,Zanjas de infiltración / recarga hídrica
+49,422,10,Conservación hídrica,Conservación hídrica,29.979940263034532,1703.9686600893979,Baja,Conservación/restauración hídrica
+50,423,38,Conservación hídrica,Conservación hídrica,10.078518285675468,5066.5340783109295,Muy alta,Conservación/restauración hídrica
+51,425,38,Conservación hídrica,Conservación hídrica,15.884621211243523,5066.5340783109295,Muy alta,Conservación/restauración hídrica
+52,436,38,Conservación hídrica,Conservación hídrica,10.334132879905813,5066.5340783109295,Muy alta,Conservación/restauración hídrica
+53,458,38,Conservación hídrica,Conservación hídrica,12.159951409898191,5066.5340783109295,Muy alta,Conservación/restauración hídrica
+54,458,12,Conservación hídrica,Conservación hídrica,5.404422848844023,5717.464827922182,Muy alta,Conservación/restauración hídrica
+55,461,12,Producción agrohidrológica,Conservación hídrica,12.45208237483208,5717.464827922182,Muy alta,"Agricultura regenerativa, curvas a nivel y zanjas de infiltración"
+56,463,6,Conservación hídrica,Conservación hídrica,0.6572946708049076,3995.9932324288548,Alta,Conservación/restauración hídrica
+57,469,18,Recarga / infiltración,Conservación hídrica,3.505571577626254,1393.923234719748,Baja,Zanjas de infiltración / recarga hídrica
+58,482,18,Recarga / infiltración,Conservación hídrica,4.016800766054994,1393.923234719748,Baja,Zanjas de infiltración / recarga hídrica
+59,484,14,Producción agrohidrológica,Conservación hídrica,2.4465968302681587,2641.8215049706496,Media,"Agricultura regenerativa, curvas a nivel y zanjas de infiltración"
+60,486,45,Conservación hídrica,Conservación hídrica,11.027943921343084,4039.9697330340523,Alta,Conservación/restauración hídrica
+61,488,12,Conservación hídrica,Conservación hídrica,4.637579066266774,5717.464827922182,Muy alta,Conservación/restauración hídrica
+62,490,38,Producción agrohidrológica,Conservación hídrica,3.542087948240768,5066.5340783109295,Muy alta,"Agricultura regenerativa, curvas a nivel y zanjas de infiltración"
+63,490,12,Producción agrohidrológica,Conservación hídrica,29.395678333344737,5717.464827922182,Muy alta,"Agricultura regenerativa, curvas a nivel y zanjas de infiltración"
+64,490,6,Producción agrohidrológica,Conservación hídrica,29.6147765569321,3995.9932324288548,Alta,"Agricultura regenerativa, curvas a nivel y zanjas de infiltración"
+65,493,14,Conservación hídrica,Conservación hídrica,22.6036334016369,2641.8215049706496,Media,Conservación/restauración hídrica
+66,494,6,Producción agrohidrológica,Conservación hídrica,14.314417275353483,3995.9932324288548,Alta,"Agricultura regenerativa, curvas a nivel y zanjas de infiltración"
+67,498,6,Producción agrohidrológica,Conservación hídrica,3.4325388364256915,3995.9932324288548,Alta,"Agricultura regenerativa, curvas a nivel y zanjas de infiltración"
+68,498,14,Producción agrohidrológica,Conservación hídrica,18.769414488540573,2641.8215049706496,Media,"Agricultura regenerativa, curvas a nivel y zanjas de infiltración"
+69,498,23,Producción agrohidrológica,Retención / almacenamiento puntual,3.2864733540423834,1309.8778632145866,Baja,Reservorio / almacenamiento temporal
+70,499,5,Conservación hídrica,Conservación hídrica,111.74009403724969,1921.1740295739926,Baja,Conservación/restauración hídrica
+71,499,1,Conservación hídrica,Conservación hídrica,161.00067797725328,4942.561636557656,Alta,Conservación/restauración hídrica
+72,499,37,Conservación hídrica,Conservación hídrica,68.7968422112106,1614.9439308452772,Baja,Conservación/restauración hídrica
+73,499,50,Conservación hídrica,Conservación hídrica,60.7997570497507,2880.653033858931,Media,Conservación/restauración hídrica
+74,499,44,Conservación hídrica,Conservación hídrica,65.0356560393433,4110.2345597652875,Alta,Conservación/restauración hídrica
+75,499,45,Conservación hídrica,Conservación hídrica,25.305844826067766,4039.9697330340523,Alta,Conservación/restauración hídrica
+76,499,6,Conservación hídrica,Conservación hídrica,18.367734412069236,3995.9932324288548,Alta,Conservación/restauración hídrica
+77,499,14,Conservación hídrica,Conservación hídrica,23.808673631421044,2641.8215049706496,Media,Conservación/restauración hídrica
+78,499,23,Conservación hídrica,Retención / almacenamiento puntual,1.2780729710095893,1309.8778632145866,Baja,Reservorio / almacenamiento temporal
+79,502,14,Recarga / infiltración,Conservación hídrica,4.126349877855818,2641.8215049706496,Media,Zanjas de infiltración / recarga hídrica
+80,504,6,Producción agrohidrológica,Conservación hídrica,2.2274986066202733,3995.9932324288548,Alta,"Agricultura regenerativa, curvas a nivel y zanjas de infiltración"
+81,504,23,Producción agrohidrológica,Retención / almacenamiento puntual,4.783644548639423,1309.8778632145866,Baja,Reservorio / almacenamiento temporal
+82,505,7,Producción agrohidrológica,Retención / almacenamiento puntual,23.33396081363173,3331.803510503781,Alta,Reservorio / almacenamiento temporal
+83,506,7,Conservación hídrica,Retención / almacenamiento puntual,0.8398765238062806,3331.803510503781,Alta,Reservorio / almacenamiento temporal
+84,530,21,Producción agrohidrológica,Retención / almacenamiento puntual,9.019543538281782,1437.380818433005,Baja,Reservorio / almacenamiento temporal
+85,532,12,Conservación hídrica,Conservación hídrica,0.5477455590040908,5717.464827922182,Muy alta,Conservación/restauración hídrica
+86,532,7,Conservación hídrica,Retención / almacenamiento puntual,32.609118946236414,3331.803510503781,Alta,Reservorio / almacenamiento temporal
+87,532,23,Conservación hídrica,Retención / almacenamiento puntual,23.80867363145302,1309.8778632145866,Baja,Reservorio / almacenamiento temporal
+88,532,21,Conservación hídrica,Retención / almacenamiento puntual,31.769242422387446,1437.380818433005,Baja,Reservorio / almacenamiento temporal
+89,535,21,Conservación hídrica,Retención / almacenamiento puntual,3.359506095257198,1437.380818433005,Baja,Reservorio / almacenamiento temporal
+90,554,2,Producción agrohidrológica,Retención / almacenamiento puntual,24.02777185503336,3984.199936432562,Alta,Reservorio / almacenamiento temporal
+91,557,7,Producción agrohidrológica,Retención / almacenamiento puntual,32.024857016582175,3331.803510503781,Alta,Reservorio / almacenamiento temporal
+92,557,21,Producción agrohidrológica,Retención / almacenamiento puntual,23.991255484450875,1437.380818433005,Baja,Reservorio / almacenamiento temporal
+93,557,36,Producción agrohidrológica,Retención / almacenamiento puntual,43.45448101456406,1130.5127410999132,Baja,Reservorio / almacenamiento temporal
+94,557,2,Producción agrohidrológica,Retención / almacenamiento puntual,94.79649807850569,3984.199936432562,Alta,Reservorio / almacenamiento temporal
+95,557,31,Producción agrohidrológica,Retención / almacenamiento puntual,40.27755677225107,1298.8613456627395,Baja,Reservorio / almacenamiento temporal
+96,559,17,Conservación hídrica,Conservación hídrica,58.207094737053055,4878.591658570006,Alta,Conservación/restauración hídrica
+97,559,32,Conservación hídrica,Conservación hídrica,37.2101816418388,2815.7708439955086,Media,Conservación/restauración hídrica
+98,559,41,Conservación hídrica,Conservación hídrica,3.3595060952251594,1100.7893780066247,Baja,Conservación/restauración hídrica
+99,559,33,Conservación hídrica,Conservación hídrica,21.654207766004863,1174.585313962376,Baja,Conservación/restauración hídrica
+100,559,26,Conservación hídrica,Conservación hídrica,69.19852228763203,1240.6941732560697,Baja,Conservación/restauración hídrica
+101,559,43,Conservación hídrica,Conservación hídrica,54.080744859214974,1093.6147731220376,Baja,Conservación/restauración hídrica
+102,559,29,Conservación hídrica,Conservación hídrica,71.90073371225168,2264.0835383615376,Media,Conservación/restauración hídrica
+103,559,24,Conservación hídrica,Conservación hídrica,73.76306861284424,1569.1719807333545,Baja,Conservación/restauración hídrica
+104,559,39,Conservación hídrica,Conservación hídrica,67.26315464597421,2945.0756938351224,Media,Conservación/restauración hídrica
+105,559,8,Conservación hídrica,Drenaje controlado,109.43956268944284,1736.254382070039,Baja,Drenaje controlado y estabilización de cauces
+106,559,4,Conservación hídrica,Conservación hídrica,94.57739985503564,3488.008194128687,Alta,Conservación/restauración hídrica
+107,559,16,Conservación hídrica,Conservación hídrica,50.94033698758078,1422.6216542580958,Baja,Conservación/restauración hídrica
+108,559,11,Conservación hídrica,Conservación hídrica,115.72037843272223,1638.3722725731745,Baja,Conservación/restauración hídrica
+109,559,42,Conservación hídrica,Conservación hídrica,48.16509282197072,1095.6646602319197,Baja,Conservación/restauración hídrica
+110,559,49,Conservación hídrica,Conservación hídrica,13.766671716367112,2699.585225626658,Media,Conservación/restauración hídrica
+111,559,10,Conservación hídrica,Conservación hídrica,19.937938347820488,1703.9686600893979,Baja,Conservación/restauración hídrica
+112,559,18,Conservación hídrica,Conservación hídrica,49.479682163537795,1393.923234719748,Baja,Conservación/restauración hídrica
+113,563,36,Recarga / infiltración,Retención / almacenamiento puntual,4.089833507241302,1130.5127410999132,Baja,Reservorio / almacenamiento temporal
+114,563,2,Recarga / infiltración,Retención / almacenamiento puntual,8.070117902674626,3984.199936432562,Alta,Reservorio / almacenamiento temporal
+115,571,36,Conservación hídrica,Retención / almacenamiento puntual,4.053317136641065,1130.5127410999132,Baja,Reservorio / almacenamiento temporal
+116,573,28,Conservación hídrica,Conservación hídrica,1.8988512712142085,1747.3765532399523,Baja,Conservación/restauración hídrica
+117,580,28,Recarga / infiltración,Conservación hídrica,4.345448101432571,1747.3765532399523,Baja,Zanjas de infiltración / recarga hídrica
+118,591,35,Producción agrohidrológica,Conservación hídrica,0.6572946708191659,1163.8234066354953,Baja,"Agricultura regenerativa, curvas a nivel y zanjas de infiltración"
+119,599,28,Recarga / infiltración,Conservación hídrica,1.0589747474079696,1747.3765532399523,Baja,Zanjas de infiltración / recarga hídrica
+120,601,31,Conservación hídrica,Retención / almacenamiento puntual,13.730155345741997,1298.8613456627395,Baja,Reservorio / almacenamiento temporal
+121,601,35,Conservación hídrica,Conservación hídrica,51.74369714078667,1163.8234066354953,Baja,Conservación/restauración hídrica
+122,612,28,Conservación hídrica,Conservación hídrica,54.66500678882322,1747.3765532399523,Baja,Conservación/restauración hídrica
