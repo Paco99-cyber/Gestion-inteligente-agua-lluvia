@@ -1193,11 +1193,11 @@ if not pmu_filtrada.empty:
 
     pmu_mapa = pmu_filtrada.copy()
 
-    if len(pmu_mapa) > 80:
+    if len(pmu_mapa) > 40:
         pmu_mapa = pmu_mapa.sort_values(
             by="volumen_m3",
             ascending=False
-        ).head(80)
+        ).head(40)
 
     st.caption(f"Mostrando {len(pmu_mapa)} PMU en el mapa.")
 
@@ -1228,7 +1228,7 @@ if not pmu_filtrada.empty:
 
     st_folium(
         m,
-        width=1200,
+        width=1000,
         height=650,
         key="visor_pmu_principal"
     )
