@@ -909,9 +909,9 @@ if TU_GPKG.exists():
         tooltip=folium.GeoJsonTooltip(
             fields=["tipo_tu", "area_ha"],
             aliases=["Tipo TU", "Área (ha)"],
-            localize=True
+            localize=True  
         )
-    ).add_to(m)
+        ).add_to(m)
 
 if "executive_summary" not in locals():
     executive_summary = (
@@ -1014,6 +1014,7 @@ if not top10_pmu.empty:
     )
 else:
     st.warning("No existen PMU para generar ranking.")
+
 
 # =========================
 # PMU - VISOR TERRITORIAL PRINCIPAL
@@ -1182,6 +1183,7 @@ if not pmu_filtrada.empty:
             folium.GeoJson(
                 row.geometry,
                 name="Zonas de intervención",
+                show=False,
                 style_function=lambda feature, color=color: {
                     "fillColor": color,
                     "color": color,
@@ -1193,11 +1195,16 @@ if not pmu_filtrada.empty:
 
     pmu_mapa = pmu_filtrada.copy()
 
-    if len(pmu_mapa) > 40:
+    if len(pmu_mapa) > 25:
         pmu_mapa = pmu_mapa.sort_values(
             by="volumen_m3",
             ascending=False
-        ).head(40)
+        ).head(25)
+
+    pmu_mapa["geometry"] = pmu_mapa["geometry"].simplify(
+    0.00008,
+    preserve_topology=True
+    )
 
     st.caption(f"Mostrando {len(pmu_mapa)} PMU en el mapa.")
 
@@ -1219,7 +1226,7 @@ if not pmu_filtrada.empty:
                 "fillColor": color,
                 "color": "#111111",
                 "weight": 1.4,
-                "fillOpacity": 0.75,
+                "fillOpacity": 0.3,
             },
             popup=folium.Popup(popup, max_width=350)
         ).add_to(m)
@@ -1228,8 +1235,8 @@ if not pmu_filtrada.empty:
 
     st_folium(
         m,
-        width=1000,
-        height=650,
+        width=950,
+        height=550,
         key="visor_pmu_principal"
     )
 
