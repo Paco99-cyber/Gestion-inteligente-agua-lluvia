@@ -899,7 +899,7 @@ if TU_GPKG.exists():
     tu = load_tu(TU_GPKG)
     folium.GeoJson(
         tu,
-        name="Territorial Units",
+        #name="Territorial Units",
         style_function=lambda feature: {
             "fillColor": tu_color(feature["properties"].get("tipo_tu")),
             "color": "#555555",
@@ -1182,7 +1182,7 @@ if not pmu_filtrada.empty:
 
             folium.GeoJson(
                 row.geometry,
-                name="Zonas de intervención",
+                #name="Zonas de intervención",
                 show=False,
                 style_function=lambda feature, color=color: {
                     "fillColor": color,
@@ -1195,14 +1195,14 @@ if not pmu_filtrada.empty:
 
     pmu_mapa = pmu_filtrada.copy()
 
-    if len(pmu_mapa) > 25:
+    if len(pmu_mapa) > 10:
         pmu_mapa = pmu_mapa.sort_values(
             by="volumen_m3",
             ascending=False
-        ).head(25)
+        ).head(10)
 
     pmu_mapa["geometry"] = pmu_mapa["geometry"].simplify(
-    0.00008,
+    0.00002,
     preserve_topology=True
     )
 
@@ -1235,8 +1235,8 @@ if not pmu_filtrada.empty:
 
     st_folium(
         m,
-        width=950,
-        height=550,
+        width=850,
+        height=500,
         key="visor_pmu_principal"
     )
 
@@ -1284,6 +1284,7 @@ st.info(
     "El beneficio hidrológico se estima aplicando eficiencias referenciales "
     "según el tipo de intervención propuesta para cada Unidades Prioritarias de Planificación y Gestión (PMU). "
     "Este cálculo es preliminar y sirve para comparación entre escenarios."
+    "Versión web optimizada: se muestran las 10 unidades prioritarias principales para mejorar el rendimiento en la nube."
 )
 benefit_by_action = (
     pmu_benefit
