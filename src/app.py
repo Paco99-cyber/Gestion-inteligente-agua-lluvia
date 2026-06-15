@@ -8,7 +8,7 @@ import pandas as pd
 import folium
 from streamlit_folium import st_folium
 import geopandas as gpd
-
+PUBLIC_WEB_MODE = True
 # =========================
 # CONFIGURACIÓN GENERAL
 # =========================
@@ -1316,15 +1316,17 @@ fig = px.bar(
     title="Volumen gestionable por escenario"
 )
 
-st.plotly_chart(
+if not PUBLIC_WEB_MODE:
+    # aquí va la sección pesada
+    st.plotly_chart(
     fig,
     use_container_width=True
-)
-st.dataframe(
+    )
+    st.dataframe(
     benefit_by_action,
     use_container_width=True
-)
-dominant_action = (
+    )
+    dominant_action = (
     benefit_by_action
     .sort_values("volumen_gestionado_m3", ascending=False)
     .iloc[0]
