@@ -313,6 +313,92 @@ with st.expander("¿Cómo interpretar este dashboard?"):
     **Costo por m³ gestionado**  
     Indicador referencial que estima cuánto costaría gestionar un metro cúbico de agua lluvia. Se calcula como costo estimado total dividido para volumen gestionable total.
     """)
+
+# =====================================================
+# VISUALIZACIÓN DEL ESCENARIO HIDROLÓGICO
+# =====================================================
+
+st.markdown("## Escenario hidrológico seleccionado")
+
+scenario_info = {
+    "Moderado": {
+        "color": "#2ca25f",
+        "nivel": "Impacto bajo",
+        "descripcion": "Evento frecuente. Genera escorrentía moderada y permite evaluar intervenciones básicas."
+    },
+    "Fuerte": {
+        "color": "#fdae61",
+        "nivel": "Impacto medio",
+        "descripcion": "Lluvia intensa. Permite analizar zonas con acumulación significativa de escorrentía."
+    },
+    "Extremo": {
+        "color": "#f46d43",
+        "nivel": "Impacto alto",
+        "descripcion": "Evento severo. Aumenta la presión sobre drenajes, laderas y zonas de acumulación."
+    },
+    "Crítico": {
+        "color": "#d73027",
+        "nivel": "Impacto muy alto",
+        "descripcion": "Evento crítico. Representa condiciones de alta generación de escorrentía y posible afectación territorial."
+    },
+    "Personalizado": {
+        "color": "#756bb1",
+        "nivel": "Escenario definido por el usuario",
+        "descripcion": "Escenario manual definido según la lluvia ingresada por el usuario."
+    }
+}
+
+info = scenario_info[scenario]
+
+st.markdown(
+    f"""
+    <div style="
+        border-left: 8px solid {info['color']};
+        background-color: rgba(245,245,245,0.08);
+        padding: 18px;
+        border-radius: 10px;
+        margin-bottom: 18px;
+    ">
+        <h3 style="margin-bottom:4px;">{scenario} — {rain_mm:.0f} mm</h3>
+        <p style="font-size:18px; margin-bottom:6px;"><b>{info['nivel']}</b></p>
+        <p style="font-size:16px; margin-bottom:0px;">{info['descripcion']}</p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+# =====================================================
+# GRÁFICO COMPARATIVO DE ESCENARIOS
+# =====================================================
+
+st.markdown("### Comparación entre escenarios")
+
+escenarios_base = pd.DataFrame({
+    "escenario": ["Moderado", "Fuerte", "Extremo", "Crítico"],
+    "lluvia_mm": [25, 50, 100, 140]
+})
+
+escenarios_base["factor"] = escenarios_base["lluvia_mm"] / LLUVIA_BASE_MM
+
+escenarios_base["volumen_potencial_m3"] = (
+    pmu_summary["volumen_m3"].sum() * escenarios_base["factor"]
+)
+
+escenarios_base["volumen_gestionable_m3"] = (
+    volumen_gestionable_total / factor_lluvia * escenarios_base["factor"]
+)
+
+st.bar_chart(
+    escenarios_base.set_index("escenario")[[
+        "volumen_potencial_m3",
+        "volumen_gestionable_m3"
+    ]]
+)
+
+st.caption(
+    "La gráfica compara el volumen potencial y el volumen gestionable estimado "
+    "para distintos escenarios de lluvia. Los valores se ajustan proporcionalmente "
+    "a partir de la lluvia base de 50 mm."
+)
 # =====================================================
 # SECCIONES PRINCIPALES
 # =====================================================
