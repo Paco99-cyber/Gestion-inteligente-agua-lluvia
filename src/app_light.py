@@ -275,7 +275,7 @@ c5, c6, c7, c8 = st.columns(4)
 
 c5.metric("Área prioritaria (ha)", f"{area_total:,.2f}")
 c6.metric("Volumen potencial (m³)", f"{volumen_potencial_total:,.0f}")
-c7.metric("Volumen gestionable (m³)", f"{volumen_gestionable_total:,.0f}")
+c7.metric("Volumen gestionable total (m³)", f"{volumen_gestionable_total:,.0f}")
 c8.metric("Reducción potencial (%)", f"{reduccion_potencial:.1f}")
 
 c9, c10, c11 = st.columns(3)
@@ -286,7 +286,33 @@ c11.metric("Prioridad dominante", prioridad_dominante)
 
 st.info(f"Acción dominante recomendada: **{accion_dominante}**")
 
+# =====================================================
+# GLOSARIO / INTERPRETACIÓN
+# =====================================================
 
+with st.expander("¿Cómo interpretar este dashboard?"):
+    st.markdown("""
+    **PMU - Unidad Prioritaria de Manejo**  
+    Área identificada por el modelo como prioritaria para intervenir. Combina información territorial, hidrológica y de riesgo.
+
+    **TU - Unidad Territorial**  
+    Clasificación del territorio según su función hidrológica dominante: conservación, infiltración, producción, manejo urbano o regulación.
+
+    **HMU - Unidad Hidrológica de Manejo**  
+    Área delimitada por la topografía y las rutas naturales del agua. Representa una zona que drena hacia un mismo punto.
+
+    **Volumen potencial**  
+    Cantidad estimada de escorrentía generada por el evento de lluvia seleccionado dentro de las PMU.
+
+    **Volumen gestionable total**  
+    Parte del volumen potencial que podría captarse, infiltrarse, almacenarse o regularse mediante las intervenciones recomendadas.
+
+    **Reducción potencial**  
+    Porcentaje del volumen potencial que podría ser gestionado con las medidas propuestas.
+
+    **Costo por m³ gestionado**  
+    Indicador referencial que estima cuánto costaría gestionar un metro cúbico de agua lluvia. Se calcula como costo estimado total dividido para volumen gestionable total.
+    """)
 # =====================================================
 # SECCIONES PRINCIPALES
 # =====================================================
