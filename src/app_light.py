@@ -7,7 +7,7 @@ from pathlib import Path
 import rasterio
 import numpy as np
 
-
+st.success("Versión 1.1 - 16 junio 2026") 
 # =====================================================
 # CONFIGURACIÓN GENERAL
 # =====================================================
